@@ -4,7 +4,7 @@ Tags: elementor, header builder, footer builder, mega menu, popup
 Requires at least: 5.9
 Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.2.6
+Stable tag: 1.2.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,9 @@ Yes. You can create as many popup templates as you need and control which pages 
 9. Template Type : 404
 
 == Changelog ==
+
+= 1.2.7 =
+* Fixed an issue where active submenu links were not highlighted correctly in mobile Nav Menu widgets.
 
 = 1.2.6 =
 * Improved the rule selector by displaying the parent page title next to the page title for better clarity.

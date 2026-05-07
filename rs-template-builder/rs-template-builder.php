@@ -5,7 +5,7 @@
  * Plugin URI: https://rstheme.com/rs-template-builder
  * Author: RSTheme
  * Author URI: https://rstheme.com/
- * Version: 1.2.6
+ * Version: 1.2.7
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: rs-template-builder
@@ -20,7 +20,7 @@ defined( 'ABSPATH' ) || exit;
 /**
  * Define constants
  */
-define( 'RSTB_VERSION', '1.2.6' );
+define( 'RSTB_VERSION', '1.2.7' );
 define( 'RSTB_FILE', __FILE__ );
 define( 'RSTB_PATH', plugin_dir_path( RSTB_FILE ) );
 define( 'RSTB_URL', plugin_dir_url( RSTB_FILE ) );

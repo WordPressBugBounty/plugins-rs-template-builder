@@ -2550,7 +2550,7 @@ class Nav_Menu extends Widget_Base {
 				'label'     => esc_html__( 'Color', 'rs-template-builder' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
-					'{{WRAPPER}} .rstb-nav-menu .mobile-menu .current-menu-parent > .menu-item-link, {{WRAPPER}} .rstb-nav-menu .mobile-menu > .current-menu-item > .menu-item-link' => 'color: {{VALUE}}',
+					'{{WRAPPER}} .rstb-nav-menu .mobile-menu .current-menu-parent > .menu-item-link, {{WRAPPER}} .rstb-nav-menu .mobile-menu .current-menu-item > .menu-item-link' => 'color: {{VALUE}}',
 				],
 			]
 		);
@@ -2561,7 +2561,7 @@ class Nav_Menu extends Widget_Base {
 				'label'     => esc_html__( 'Background Color', 'rs-template-builder' ),
 				'type'      => Controls_Manager::COLOR,
 				'selectors' => [
-					'{{WRAPPER}} .rstb-nav-menu .mobile-menu .current-menu-parent > .menu-item-link, {{WRAPPER}} .rstb-nav-menu .mobile-menu > .current-menu-item > .menu-item-link' => 'background-color: {{VALUE}}',
+					'{{WRAPPER}} .rstb-nav-menu .mobile-menu .current-menu-parent > .menu-item-link, {{WRAPPER}} .rstb-nav-menu .mobile-menu .current-menu-item > .menu-item-link' => 'background-color: {{VALUE}}',
 				],
 			]
 		);
