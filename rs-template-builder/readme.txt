@@ -2,9 +2,9 @@
 Contributors: rstheme2017
 Tags: elementor, header builder, footer builder, mega menu, popup
 Requires at least: 5.9
-Tested up to: 6.9
+Tested up to: 7.0.2
 Requires PHP: 7.4
-Stable tag: 1.2.7
+Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,10 @@ Yes. You can create as many popup templates as you need and control which pages 
 9. Template Type : 404
 
 == Changelog ==
+
+= 1.2.8 =
+* Compatible with WP 7.0.2
+* Security bug fix.
 
 = 1.2.7 =
 * Fixed an issue where active submenu links were not highlighted correctly in mobile Nav Menu widgets.
