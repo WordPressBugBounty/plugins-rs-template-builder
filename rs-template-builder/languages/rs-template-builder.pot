@@ -2,14 +2,14 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: RS Template Builder 1.2.8\n"
+"Project-Id-Version: RS Template Builder 1.2.9\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rs-template-builder\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-22T12:35:58+00:00\n"
+"POT-Creation-Date: 2026-07-29T10:27:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: rs-template-builder\n"
@@ -492,7 +492,7 @@ msgstr ""
 #: includes/elementor/widgets/class-offcanvas.php:222
 #: includes/elementor/widgets/class-offcanvas.php:248
 #: includes/elementor/widgets/class-offcanvas.php:861
-#: includes/elementor/widgets/class-page-title.php:108
+#: includes/elementor/widgets/class-page-title.php:121
 #: includes/elementor/widgets/class-post-content.php:58
 #: includes/elementor/widgets/class-post-excerpt.php:125
 #: includes/elementor/widgets/class-post-featured-img.php:71
@@ -776,7 +776,7 @@ msgstr ""
 #: includes/elementor/widgets/class-offcanvas.php:787
 #: includes/elementor/widgets/class-offcanvas.php:953
 #: includes/elementor/widgets/class-offcanvas.php:992
-#: includes/elementor/widgets/class-page-title.php:140
+#: includes/elementor/widgets/class-page-title.php:153
 #: includes/elementor/widgets/class-post-author.php:343
 #: includes/elementor/widgets/class-post-author.php:396
 #: includes/elementor/widgets/class-post-author.php:501
@@ -1276,7 +1276,7 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:574
 #: includes/elementor/widgets/class-nav-menu.php:3452
 #: includes/elementor/widgets/class-offcanvas.php:252
-#: includes/elementor/widgets/class-page-title.php:112
+#: includes/elementor/widgets/class-page-title.php:125
 #: includes/elementor/widgets/class-post-author.php:218
 #: includes/elementor/widgets/class-post-content.php:62
 #: includes/elementor/widgets/class-post-excerpt.php:129
@@ -1295,7 +1295,7 @@ msgstr ""
 #: includes/elementor/widgets/class-archive-posts.php:2197
 #: includes/elementor/widgets/class-nav-menu.php:133
 #: includes/elementor/widgets/class-offcanvas.php:456
-#: includes/elementor/widgets/class-page-title.php:116
+#: includes/elementor/widgets/class-page-title.php:129
 #: includes/elementor/widgets/class-post-author.php:219
 #: includes/elementor/widgets/class-post-featured-img.php:295
 #: includes/elementor/widgets/class-post-meta.php:276
@@ -1422,7 +1422,7 @@ msgstr ""
 #: includes/elementor/widgets/class-offcanvas.php:282
 #: includes/elementor/widgets/class-offcanvas.php:738
 #: includes/elementor/widgets/class-offcanvas.php:779
-#: includes/elementor/widgets/class-page-title.php:152
+#: includes/elementor/widgets/class-page-title.php:165
 #: includes/elementor/widgets/class-post-author.php:332
 #: includes/elementor/widgets/class-post-author.php:385
 #: includes/elementor/widgets/class-post-comments.php:140
@@ -1614,7 +1614,7 @@ msgid "displays your site title"
 msgstr ""
 
 #: includes/elementor/widgets/class-copyright.php:75
-#: includes/elementor/widgets/class-page-title.php:83
+#: includes/elementor/widgets/class-page-title.php:96
 msgid "HTML Tag"
 msgstr ""
 
@@ -1852,7 +1852,7 @@ msgid "Submit Icon"
 msgstr ""
 
 #: includes/elementor/widgets/class-mini-search.php:150
-#: includes/elementor/widgets/class-page-title.php:103
+#: includes/elementor/widgets/class-page-title.php:116
 msgid "Text Alignment"
 msgstr ""
 
@@ -2251,7 +2251,7 @@ msgstr ""
 
 #: includes/elementor/widgets/class-page-title.php:20
 #: includes/elementor/widgets/class-page-title.php:55
-#: includes/elementor/widgets/class-page-title.php:132
+#: includes/elementor/widgets/class-page-title.php:145
 msgid "Page Title"
 msgstr ""
 
@@ -2267,17 +2267,17 @@ msgstr ""
 msgid "Enter custom page title"
 msgstr ""
 
-#: includes/elementor/widgets/class-page-title.php:194
+#: includes/elementor/widgets/class-page-title.php:207
 msgid "Latest Blogs"
 msgstr ""
 
 #. translators: %s: Search query.
-#: includes/elementor/widgets/class-page-title.php:199
+#: includes/elementor/widgets/class-page-title.php:212
 #, php-format
 msgid "Search results for \"%s\""
 msgstr ""
 
-#: includes/elementor/widgets/class-page-title.php:203
+#: includes/elementor/widgets/class-page-title.php:234
 msgid "Page Not Found"
 msgstr ""
 

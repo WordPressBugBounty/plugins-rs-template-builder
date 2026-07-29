@@ -78,6 +78,19 @@ class Page_Title extends Widget_Base {
 		);
 
 		$this->add_control(
+			'show_title_prefix',
+			[
+				'label'       => esc_html__( 'Show Archive Title Prefix', 'fancy-post-grid-pro' ),
+				'type'        => Controls_Manager::SWITCHER,
+				'label_on'     => esc_html__( 'Yes', 'fancy-post-grid-pro' ),
+				'label_off'    => esc_html__( 'No', 'fancy-post-grid-pro' ),
+				'return_value' => 'yes',
+				'default'      => 'yes',
+			]
+		);
+
+
+		$this->add_control(
 			'title_tag',
 			[
 				'label'   => esc_html__( 'HTML Tag', 'rs-template-builder' ),
@@ -172,12 +185,12 @@ class Page_Title extends Widget_Base {
 		else :
 			printf( '<%1$s class="rstb-page-title">%2$s</%1$s>',
 				Utils::validate_html_tag( $settings[ 'title_tag' ] ),
-				wp_kses_post( $this->get_current_page_title() ),
+				wp_kses_post( $this->get_current_page_title($settings["show_title_prefix"]), ),
 			);
 		endif;
 	}
 
-	private function get_current_page_title(): string {
+     private function get_current_page_title($show_title_prefix): string {
 		if ( is_front_page() ) {
 			$front_page_id = get_option( 'page_on_front' );
 			if ( $front_page_id ) {
@@ -198,7 +211,25 @@ class Page_Title extends Widget_Base {
 			/* translators: %s: Search query. */
 			return sprintf( __( 'Search results for "%s"', 'rs-template-builder' ), get_search_query() );
 		} elseif ( is_archive() ) {
-			return get_the_archive_title();
+			if($show_title_prefix == "yes") {
+				return get_the_archive_title();
+			 }else {
+				if ( is_category() || is_tag() || is_tax() ) {
+					 return single_term_title( '', false );
+				   } elseif ( is_author() ) {
+					return get_the_author();
+				   } elseif ( is_year() ) {
+					return get_the_date( 'Y' );
+				   } elseif ( is_month() ) {
+					return get_the_date( 'F Y' );
+				   } elseif ( is_day() ) {
+					return get_the_date();
+				   } elseif ( is_post_type_archive() ) {
+					return post_type_archive_title( '', false );
+				   }
+				   
+				   return get_the_archive_title();
+			}
 		} elseif ( is_404() ) {
 			return __( 'Page Not Found', 'rs-template-builder' );
 		}
