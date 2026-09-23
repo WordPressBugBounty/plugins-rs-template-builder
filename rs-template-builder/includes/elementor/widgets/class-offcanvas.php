@@ -13,6 +13,8 @@ use Elementor\Widget_Base;
 
 class Offcanvas extends Widget_Base {
 
+	protected static $rendering_template_ids = [];
+
 	public function get_name(): string {
 		return 'rstb-offcanvas';
 	}
@@ -1074,9 +1076,11 @@ class Offcanvas extends Widget_Base {
 						<?php endif; ?>
                     </button>
 					<?php if ( 'template' === $settings[ 'content_type' ] ) : ?>
-						<?php if ( ! empty( $settings[ 'template_id' ] ) ) {
+						<?php if ( ! empty( $settings[ 'template_id' ] ) && ! in_array( (int) $settings[ 'template_id' ], self::$rendering_template_ids, true ) ) {
+							self::$rendering_template_ids[] = (int) $settings[ 'template_id' ];
 							// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Displaying with Elementor content rendering
 							echo Plugin::$instance->frontend->get_builder_content_for_display( $settings[ 'template_id' ] );
+							array_pop( self::$rendering_template_ids );
 						} ?>
 					<?php else : ?>
                         <div class="offcanvas-text-blocks">

@@ -103,6 +103,8 @@ class Nav_Walker extends Walker_Nav_Menu {
 		return '';
 	}
 
+	protected static $rendering_mm_ids = [];
+
 	protected function get_builder_mm_content( $menu_item ): string {
 		if ( $menu_item->object !== 'rstb_template' ) {
 			return '';
@@ -115,6 +117,13 @@ class Nav_Walker extends Walker_Nav_Menu {
 			return '';
 		}
 
+		// Prevent infinite recursion when a mega menu embeds a nav menu that loops back to itself.
+		if ( in_array( $menu_item->object_id, self::$rendering_mm_ids, true ) ) {
+			return '';
+		}
+
+		self::$rendering_mm_ids[] = $menu_item->object_id;
+
 		$menu_width   = $settings[ 'mm_width' ] ?? 'full';
 		$custom_width = $settings[ 'custom_mm_width' ] ?? 600;
 
@@ -125,6 +134,8 @@ class Nav_Walker extends Walker_Nav_Menu {
 		$content .= '>';
 		$content .= Utils::get_elementor_content( $menu_item->object_id );
 		$content .= '</div>';
+
+		array_pop( self::$rendering_mm_ids );
 
 		return $content;
 	}

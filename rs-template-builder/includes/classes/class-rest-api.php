@@ -326,7 +326,11 @@ class Rest_Api {
 
 	protected function sanitize_settings( $settings ) {
 		$allowed = [
-			'mm_width'           => [ 'full', 'container', 'custom' ],
+			'header_replace_enabled' => 'bool',
+			'header_selector'        => 'string',
+			'footer_replace_enabled' => 'bool',
+			'footer_selector'        => 'string',
+			'mm_width'               => [ 'full', 'container', 'custom' ],
 			'custom_mm_width'    => 'int',
 			'offcanvas_width'    => 'string',
 			'pp_width'           => [ 'full', 'auto', 'custom' ],

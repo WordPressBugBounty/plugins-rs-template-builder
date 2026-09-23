@@ -2,9 +2,9 @@
 Contributors: rstheme2017
 Tags: elementor, header builder, footer builder, mega menu, popup
 Requires at least: 5.9
-Tested up to: 7.0.2
+Tested up to: 7.1.1
 Requires PHP: 7.4
-Stable tag: 1.2.9
+Stable tag: 1.4.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,15 @@ Yes. You can create as many popup templates as you need and control which pages 
 9. Template Type : 404
 
 == Changelog ==
+
+= 1.4.1 =
+*Fixed: Sub menu opening out side of viewport.
+
+= 1.4.0 =
+*Fixed: Fixed an issue causing infinite recursion and memory exhaustion when calling nested templates.
+
+= 1.3.0 =
+*Added: CSS selector-based Header/Footer replacement option, allowing only specific sections of the theme header/footer to be replaced instead of replacing the entire header or footer.
 
 = 1.2.9 =
 * Added: archive title prefix control on page title widget

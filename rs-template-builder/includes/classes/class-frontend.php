@@ -329,6 +329,38 @@ class Frontend {
 	}
 
 	public function get_replaced_header( $name ): void {
+		$header_id = $this->get_active_template( 'header' );
+		$selector  = $this->get_header_selector( $header_id );
+
+		$templates = [];
+		$name      = (string) $name;
+		if ( '' !== $name ) {
+			$templates[] = "header-{$name}.php";
+		}
+
+		$templates[] = 'header.php';
+
+		if ( $selector ) {
+			ob_start();
+			// It causes a `require_once` so, in the get_header itself it will not be required again.
+			locate_template( $templates, true );
+			$html = ob_get_clean();
+
+			$translated_id = apply_filters( 'wpml_object_id', $header_id, 'rstb_template', true );
+			$replacement   = '<header class="rstb-header">' . Utils::get_elementor_content( $translated_id ) . '</header>';
+			$replaced      = $this->replace_element_by_selector( $html, $selector, $replacement );
+
+			if ( null !== $replaced ) {
+				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Theme markup merged with Elementor content rendering
+				echo $replaced;
+
+				return;
+			}
+
+			// Selector not found in theme markup, fall back to full header override below.
+			remove_all_actions( 'wp_head' );
+		}
+
 		if ( 'twentynineteen' === $this->active_theme ) {
 			add_action( 'rstb_before_header', function () {
 				echo '<div id="page" class="site">';
@@ -341,13 +373,10 @@ class Frontend {
 
 		require RSTB_PATH . 'templates/parts/header.php';
 
-		$templates = [];
-		$name      = (string) $name;
-		if ( '' !== $name ) {
-			$templates[] = "header-{$name}.php";
+		if ( $selector ) {
+			// Theme header already consumed above (require_once) when the selector lookup failed.
+			return;
 		}
-
-		$templates[] = 'header.php';
 
 		// Avoid running wp_head hooks again
 		remove_all_actions( 'wp_head' );
@@ -358,7 +387,120 @@ class Frontend {
 		ob_get_clean();
 	}
 
+	private function get_header_selector( $header_id ): string {
+		if ( empty( $header_id ) ) {
+			return '';
+		}
+
+		$settings = get_post_meta( $header_id, '_rstb_settings', true );
+
+		if ( ! is_array( $settings ) || empty( $settings[ 'header_replace_enabled' ] ) ) {
+			return '';
+		}
+
+		$selector = $settings[ 'header_selector' ] ?? '';
+
+		return is_string( $selector ) ? trim( $selector ) : '';
+	}
+
+	private function get_footer_selector( $footer_id ): string {
+		if ( empty( $footer_id ) ) {
+			return '';
+		}
+
+		$settings = get_post_meta( $footer_id, '_rstb_settings', true );
+
+		if ( ! is_array( $settings ) || empty( $settings[ 'footer_replace_enabled' ] ) ) {
+			return '';
+		}
+
+		$selector = $settings[ 'footer_selector' ] ?? '';
+
+		return is_string( $selector ) ? trim( $selector ) : '';
+	}
+
+	/**
+	 * Replace a single element (matched by a simple #id or .class selector) inside
+	 * already-rendered theme markup with the given replacement HTML.
+	 * Uses regex + balanced-tag depth counting instead of a DOM parser.
+	 */
+	private function replace_element_by_selector( string $html, string $selector, string $replacement ): ?string {
+		if ( strncmp( $selector, '#', 1 ) === 0 ) {
+			$value   = preg_quote( substr( $selector, 1 ), '/' );
+			$pattern = '/<([a-zA-Z][a-zA-Z0-9]*)\b[^>]*\bid=["\']' . $value . '["\'][^>]*>/i';
+		} elseif ( strncmp( $selector, '.', 1 ) === 0 ) {
+			$value   = preg_quote( substr( $selector, 1 ), '/' );
+			$pattern = '/<([a-zA-Z][a-zA-Z0-9]*)\b[^>]*\bclass=["\'][^"\']*\b' . $value . '\b[^"\']*["\'][^>]*>/i';
+		} else {
+			return null;
+		}
+
+		if ( ! preg_match( $pattern, $html, $match, PREG_OFFSET_CAPTURE ) ) {
+			return null;
+		}
+
+		$tag        = $match[ 1 ][ 0 ];
+		$open_start = $match[ 0 ][ 1 ];
+		$open_end   = $open_start + strlen( $match[ 0 ][ 0 ] );
+
+		if ( ! preg_match_all( '/<\/?' . preg_quote( $tag, '/' ) . '\b[^>]*>/i', $html, $tags, PREG_OFFSET_CAPTURE, $open_end ) ) {
+			return null;
+		}
+
+		$depth     = 1;
+		$close_end = null;
+
+		foreach ( $tags[ 0 ] as $tag_match ) {
+			if ( strncmp( $tag_match[ 0 ], '</', 2 ) === 0 ) {
+				$depth--;
+				if ( 0 === $depth ) {
+					$close_end = $tag_match[ 1 ] + strlen( $tag_match[ 0 ] );
+					break;
+				}
+			} else {
+				$depth++;
+			}
+		}
+
+		if ( null === $close_end ) {
+			return null;
+		}
+
+		return substr_replace( $html, $replacement, $open_start, $close_end - $open_start );
+	}
+
 	public function get_replaced_footer( $name ): void {
+		$footer_id = $this->get_active_template( 'footer' );
+		$selector  = $this->get_footer_selector( $footer_id );
+
+		$templates = [];
+		$name      = (string) $name;
+		if ( '' !== $name ) {
+			$templates[] = "footer-{$name}.php";
+		}
+
+		$templates[] = 'footer.php';
+
+		if ( $selector ) {
+			ob_start();
+			// It causes a `require_once` so, in the get_header itself it will not be required again.
+			locate_template( $templates, true );
+			$html = ob_get_clean();
+
+			$translated_id = apply_filters( 'wpml_object_id', $footer_id, 'rstb_template', true );
+			$replacement   = '<footer class="rstb-footer">' . Utils::get_elementor_content( $translated_id ) . '</footer>';
+			$replaced      = $this->replace_element_by_selector( $html, $selector, $replacement );
+
+			if ( null !== $replaced ) {
+				// phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- Theme markup merged with Elementor content rendering
+				echo $replaced;
+
+				return;
+			}
+
+			// Selector not found in theme markup, fall back to full footer override below.
+		}
+
 		if ( 'twentynineteen' === $this->active_theme ) {
 			add_action( 'rstb_before_footer', function () {
 				echo '</div>';
@@ -371,13 +513,10 @@ class Frontend {
 
 		require RSTB_PATH . 'templates/parts/footer.php';
 
-		$templates = [];
-		$name      = (string) $name;
-		if ( '' !== $name ) {
-			$templates[] = "footer-{$name}.php";
+		if ( $selector ) {
+			// Theme footer already consumed above (require_once) when the selector lookup failed.
+			return;
 		}
-
-		$templates[] = 'footer.php';
 
 		ob_start();
 		// It causes a `require_once` so, in the get_header itself it will not be required again.

@@ -2,14 +2,14 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: RS Template Builder 1.2.9\n"
+"Project-Id-Version: RS Template Builder 1.4.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rs-template-builder\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-29T10:27:51+00:00\n"
+"POT-Creation-Date: 2026-09-23T11:00:14+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: rs-template-builder\n"
@@ -48,7 +48,7 @@ msgid "RSTB Templates"
 msgstr ""
 
 #: includes/classes/class-admin.php:38
-#: includes/elementor/widgets/class-offcanvas.php:60
+#: includes/elementor/widgets/class-offcanvas.php:62
 msgid "Template"
 msgstr ""
 
@@ -238,8 +238,8 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:604
 #: includes/elementor/widgets/class-nav-menu.php:3429
 #: includes/elementor/widgets/class-nav-menu.php:3447
-#: includes/elementor/widgets/class-offcanvas.php:158
-#: includes/elementor/widgets/class-offcanvas.php:190
+#: includes/elementor/widgets/class-offcanvas.php:160
+#: includes/elementor/widgets/class-offcanvas.php:192
 #: includes/elementor/widgets/class-page-title.php:59
 #: includes/elementor/widgets/class-post-featured-img.php:198
 #: includes/elementor/widgets/class-post-featured-img.php:220
@@ -331,9 +331,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2979
 #: includes/elementor/widgets/class-nav-menu.php:3127
 #: includes/elementor/widgets/class-nav-menu.php:3356
-#: includes/elementor/widgets/class-offcanvas.php:304
-#: includes/elementor/widgets/class-offcanvas.php:510
-#: includes/elementor/widgets/class-offcanvas.php:820
+#: includes/elementor/widgets/class-offcanvas.php:306
+#: includes/elementor/widgets/class-offcanvas.php:512
+#: includes/elementor/widgets/class-offcanvas.php:822
 #: includes/elementor/widgets/class-post-featured-img.php:145
 #: includes/elementor/widgets/class-post-navigation.php:649
 #: includes/elementor/widgets/class-post-navigation.php:759
@@ -358,9 +358,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2991
 #: includes/elementor/widgets/class-nav-menu.php:3139
 #: includes/elementor/widgets/class-nav-menu.php:3382
-#: includes/elementor/widgets/class-offcanvas.php:319
-#: includes/elementor/widgets/class-offcanvas.php:525
-#: includes/elementor/widgets/class-offcanvas.php:832
+#: includes/elementor/widgets/class-offcanvas.php:321
+#: includes/elementor/widgets/class-offcanvas.php:527
+#: includes/elementor/widgets/class-offcanvas.php:834
 #: includes/elementor/widgets/class-post-featured-img.php:170
 #: includes/elementor/widgets/class-post-navigation.php:661
 #: includes/elementor/widgets/class-post-navigation.php:771
@@ -375,7 +375,7 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:1656
 #: includes/elementor/widgets/class-nav-menu.php:1972
 #: includes/elementor/widgets/class-nav-menu.php:2645
-#: includes/elementor/widgets/class-offcanvas.php:495
+#: includes/elementor/widgets/class-offcanvas.php:497
 msgid "Icon Size"
 msgstr ""
 
@@ -387,8 +387,8 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:252
 #: includes/elementor/widgets/class-nav-menu.php:2715
 #: includes/elementor/widgets/class-nav-menu.php:3151
-#: includes/elementor/widgets/class-offcanvas.php:218
-#: includes/elementor/widgets/class-offcanvas.php:844
+#: includes/elementor/widgets/class-offcanvas.php:220
+#: includes/elementor/widgets/class-offcanvas.php:846
 msgid "Position"
 msgstr ""
 
@@ -419,10 +419,10 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2659
 #: includes/elementor/widgets/class-nav-menu.php:2717
 #: includes/elementor/widgets/class-nav-menu.php:3153
-#: includes/elementor/widgets/class-offcanvas.php:160
-#: includes/elementor/widgets/class-offcanvas.php:292
-#: includes/elementor/widgets/class-offcanvas.php:483
-#: includes/elementor/widgets/class-offcanvas.php:846
+#: includes/elementor/widgets/class-offcanvas.php:162
+#: includes/elementor/widgets/class-offcanvas.php:294
+#: includes/elementor/widgets/class-offcanvas.php:485
+#: includes/elementor/widgets/class-offcanvas.php:848
 #: includes/elementor/widgets/class-post-featured-img.php:97
 #: includes/elementor/widgets/class-post-featured-img.php:110
 #: includes/elementor/widgets/class-post-featured-img.php:133
@@ -461,11 +461,11 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2660
 #: includes/elementor/widgets/class-nav-menu.php:2718
 #: includes/elementor/widgets/class-nav-menu.php:3154
-#: includes/elementor/widgets/class-offcanvas.php:159
-#: includes/elementor/widgets/class-offcanvas.php:191
-#: includes/elementor/widgets/class-offcanvas.php:293
-#: includes/elementor/widgets/class-offcanvas.php:484
-#: includes/elementor/widgets/class-offcanvas.php:847
+#: includes/elementor/widgets/class-offcanvas.php:161
+#: includes/elementor/widgets/class-offcanvas.php:193
+#: includes/elementor/widgets/class-offcanvas.php:295
+#: includes/elementor/widgets/class-offcanvas.php:486
+#: includes/elementor/widgets/class-offcanvas.php:849
 #: includes/elementor/widgets/class-page-title.php:60
 #: includes/elementor/widgets/class-post-featured-img.php:134
 #: includes/elementor/widgets/class-post-meta.php:84
@@ -489,9 +489,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2061
 #: includes/elementor/widgets/class-nav-menu.php:2729
 #: includes/elementor/widgets/class-nav-menu.php:3165
-#: includes/elementor/widgets/class-offcanvas.php:222
-#: includes/elementor/widgets/class-offcanvas.php:248
-#: includes/elementor/widgets/class-offcanvas.php:861
+#: includes/elementor/widgets/class-offcanvas.php:224
+#: includes/elementor/widgets/class-offcanvas.php:250
+#: includes/elementor/widgets/class-offcanvas.php:863
 #: includes/elementor/widgets/class-page-title.php:121
 #: includes/elementor/widgets/class-post-content.php:58
 #: includes/elementor/widgets/class-post-excerpt.php:125
@@ -517,9 +517,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2744
 #: includes/elementor/widgets/class-nav-menu.php:3180
 #: includes/elementor/widgets/class-nav-menu.php:3451
-#: includes/elementor/widgets/class-offcanvas.php:223
-#: includes/elementor/widgets/class-offcanvas.php:256
-#: includes/elementor/widgets/class-offcanvas.php:876
+#: includes/elementor/widgets/class-offcanvas.php:225
+#: includes/elementor/widgets/class-offcanvas.php:258
+#: includes/elementor/widgets/class-offcanvas.php:878
 #: includes/elementor/widgets/class-post-content.php:66
 #: includes/elementor/widgets/class-post-excerpt.php:133
 #: includes/elementor/widgets/class-post-featured-img.php:79
@@ -539,7 +539,7 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2759
 #: includes/elementor/widgets/class-nav-menu.php:3195
 #: includes/elementor/widgets/class-nav-menu.php:3448
-#: includes/elementor/widgets/class-offcanvas.php:891
+#: includes/elementor/widgets/class-offcanvas.php:893
 #: includes/elementor/widgets/class-post-author.php:200
 #: includes/elementor/widgets/class-post-featured-img.php:221
 #: includes/elementor/widgets/class-post-meta.php:258
@@ -558,7 +558,7 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2774
 #: includes/elementor/widgets/class-nav-menu.php:3210
 #: includes/elementor/widgets/class-nav-menu.php:3449
-#: includes/elementor/widgets/class-offcanvas.php:906
+#: includes/elementor/widgets/class-offcanvas.php:908
 #: includes/elementor/widgets/class-post-author.php:202
 #: includes/elementor/widgets/class-post-featured-img.php:222
 #: includes/elementor/widgets/class-post-meta.php:260
@@ -600,9 +600,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2792
 #: includes/elementor/widgets/class-nav-menu.php:3004
 #: includes/elementor/widgets/class-nav-menu.php:3228
-#: includes/elementor/widgets/class-offcanvas.php:337
-#: includes/elementor/widgets/class-offcanvas.php:543
-#: includes/elementor/widgets/class-offcanvas.php:924
+#: includes/elementor/widgets/class-offcanvas.php:339
+#: includes/elementor/widgets/class-offcanvas.php:545
+#: includes/elementor/widgets/class-offcanvas.php:926
 #: includes/elementor/widgets/class-post-author.php:257
 #: includes/elementor/widgets/class-post-author.php:472
 #: includes/elementor/widgets/class-post-author.php:600
@@ -650,9 +650,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2801
 #: includes/elementor/widgets/class-nav-menu.php:3012
 #: includes/elementor/widgets/class-nav-menu.php:3236
-#: includes/elementor/widgets/class-offcanvas.php:345
-#: includes/elementor/widgets/class-offcanvas.php:551
-#: includes/elementor/widgets/class-offcanvas.php:932
+#: includes/elementor/widgets/class-offcanvas.php:347
+#: includes/elementor/widgets/class-offcanvas.php:553
+#: includes/elementor/widgets/class-offcanvas.php:934
 #: includes/elementor/widgets/class-post-author.php:265
 #: includes/elementor/widgets/class-post-author.php:480
 #: includes/elementor/widgets/class-post-author.php:608
@@ -693,9 +693,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2815
 #: includes/elementor/widgets/class-nav-menu.php:3026
 #: includes/elementor/widgets/class-nav-menu.php:3250
-#: includes/elementor/widgets/class-offcanvas.php:359
-#: includes/elementor/widgets/class-offcanvas.php:565
-#: includes/elementor/widgets/class-offcanvas.php:946
+#: includes/elementor/widgets/class-offcanvas.php:361
+#: includes/elementor/widgets/class-offcanvas.php:567
+#: includes/elementor/widgets/class-offcanvas.php:948
 #: includes/elementor/widgets/class-post-author.php:494
 #: includes/elementor/widgets/class-post-comments.php:240
 #: includes/elementor/widgets/class-post-comments.php:379
@@ -768,14 +768,14 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:3072
 #: includes/elementor/widgets/class-nav-menu.php:3257
 #: includes/elementor/widgets/class-nav-menu.php:3296
-#: includes/elementor/widgets/class-offcanvas.php:366
-#: includes/elementor/widgets/class-offcanvas.php:405
-#: includes/elementor/widgets/class-offcanvas.php:572
-#: includes/elementor/widgets/class-offcanvas.php:603
-#: includes/elementor/widgets/class-offcanvas.php:746
-#: includes/elementor/widgets/class-offcanvas.php:787
-#: includes/elementor/widgets/class-offcanvas.php:953
-#: includes/elementor/widgets/class-offcanvas.php:992
+#: includes/elementor/widgets/class-offcanvas.php:368
+#: includes/elementor/widgets/class-offcanvas.php:407
+#: includes/elementor/widgets/class-offcanvas.php:574
+#: includes/elementor/widgets/class-offcanvas.php:605
+#: includes/elementor/widgets/class-offcanvas.php:748
+#: includes/elementor/widgets/class-offcanvas.php:789
+#: includes/elementor/widgets/class-offcanvas.php:955
+#: includes/elementor/widgets/class-offcanvas.php:994
 #: includes/elementor/widgets/class-page-title.php:153
 #: includes/elementor/widgets/class-post-author.php:343
 #: includes/elementor/widgets/class-post-author.php:396
@@ -830,9 +830,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2857
 #: includes/elementor/widgets/class-nav-menu.php:3065
 #: includes/elementor/widgets/class-nav-menu.php:3289
-#: includes/elementor/widgets/class-offcanvas.php:398
-#: includes/elementor/widgets/class-offcanvas.php:596
-#: includes/elementor/widgets/class-offcanvas.php:985
+#: includes/elementor/widgets/class-offcanvas.php:400
+#: includes/elementor/widgets/class-offcanvas.php:598
+#: includes/elementor/widgets/class-offcanvas.php:987
 #: includes/elementor/widgets/class-post-author.php:533
 #: includes/elementor/widgets/class-post-comments.php:410
 #: includes/elementor/widgets/class-post-excerpt.php:298
@@ -853,7 +853,7 @@ msgstr ""
 
 #: includes/elementor/widgets/class-archive-posts.php:57
 #: includes/elementor/widgets/class-mini-cart.php:49
-#: includes/elementor/widgets/class-offcanvas.php:48
+#: includes/elementor/widgets/class-offcanvas.php:50
 #: includes/elementor/widgets/class-page-title.php:47
 #: includes/elementor/widgets/class-post-author.php:50
 #: includes/elementor/widgets/class-post-meta.php:51
@@ -1125,8 +1125,8 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:1393
 #: includes/elementor/widgets/class-nav-menu.php:2309
 #: includes/elementor/widgets/class-nav-menu.php:2411
-#: includes/elementor/widgets/class-offcanvas.php:269
-#: includes/elementor/widgets/class-offcanvas.php:682
+#: includes/elementor/widgets/class-offcanvas.php:271
+#: includes/elementor/widgets/class-offcanvas.php:684
 #: includes/elementor/widgets/class-post-author.php:244
 #: includes/elementor/widgets/class-post-comments.php:75
 #: includes/elementor/widgets/class-post-comments.php:195
@@ -1192,13 +1192,13 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:3083
 #: includes/elementor/widgets/class-nav-menu.php:3268
 #: includes/elementor/widgets/class-nav-menu.php:3307
-#: includes/elementor/widgets/class-offcanvas.php:377
-#: includes/elementor/widgets/class-offcanvas.php:416
-#: includes/elementor/widgets/class-offcanvas.php:583
-#: includes/elementor/widgets/class-offcanvas.php:614
-#: includes/elementor/widgets/class-offcanvas.php:694
-#: includes/elementor/widgets/class-offcanvas.php:964
-#: includes/elementor/widgets/class-offcanvas.php:1003
+#: includes/elementor/widgets/class-offcanvas.php:379
+#: includes/elementor/widgets/class-offcanvas.php:418
+#: includes/elementor/widgets/class-offcanvas.php:585
+#: includes/elementor/widgets/class-offcanvas.php:616
+#: includes/elementor/widgets/class-offcanvas.php:696
+#: includes/elementor/widgets/class-offcanvas.php:966
+#: includes/elementor/widgets/class-offcanvas.php:1005
 #: includes/elementor/widgets/class-post-author.php:512
 #: includes/elementor/widgets/class-post-author.php:551
 #: includes/elementor/widgets/class-post-comments.php:108
@@ -1237,7 +1237,7 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2844
 #: includes/elementor/widgets/class-nav-menu.php:2886
 #: includes/elementor/widgets/class-nav-menu.php:2930
-#: includes/elementor/widgets/class-offcanvas.php:625
+#: includes/elementor/widgets/class-offcanvas.php:627
 #: includes/elementor/widgets/class-post-comments.php:269
 #: includes/elementor/widgets/class-post-comments.php:311
 #: includes/elementor/widgets/class-post-meta.php:720
@@ -1254,7 +1254,7 @@ msgstr ""
 #: includes/elementor/widgets/class-archive-posts.php:623
 #: includes/elementor/widgets/class-archive-posts.php:2189
 #: includes/elementor/widgets/class-nav-menu.php:125
-#: includes/elementor/widgets/class-offcanvas.php:452
+#: includes/elementor/widgets/class-offcanvas.php:454
 #: includes/elementor/widgets/class-post-author.php:217
 #: includes/elementor/widgets/class-post-featured-img.php:287
 #: includes/elementor/widgets/class-post-meta.php:274
@@ -1275,7 +1275,7 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:455
 #: includes/elementor/widgets/class-nav-menu.php:574
 #: includes/elementor/widgets/class-nav-menu.php:3452
-#: includes/elementor/widgets/class-offcanvas.php:252
+#: includes/elementor/widgets/class-offcanvas.php:254
 #: includes/elementor/widgets/class-page-title.php:125
 #: includes/elementor/widgets/class-post-author.php:218
 #: includes/elementor/widgets/class-post-content.php:62
@@ -1294,7 +1294,7 @@ msgstr ""
 #: includes/elementor/widgets/class-archive-posts.php:631
 #: includes/elementor/widgets/class-archive-posts.php:2197
 #: includes/elementor/widgets/class-nav-menu.php:133
-#: includes/elementor/widgets/class-offcanvas.php:456
+#: includes/elementor/widgets/class-offcanvas.php:458
 #: includes/elementor/widgets/class-page-title.php:129
 #: includes/elementor/widgets/class-post-author.php:219
 #: includes/elementor/widgets/class-post-featured-img.php:295
@@ -1377,8 +1377,8 @@ msgid "Title/Excerpt/Read More"
 msgstr ""
 
 #: includes/elementor/widgets/class-archive-posts.php:1027
-#: includes/elementor/widgets/class-offcanvas.php:72
-#: includes/elementor/widgets/class-offcanvas.php:729
+#: includes/elementor/widgets/class-offcanvas.php:74
+#: includes/elementor/widgets/class-offcanvas.php:731
 #: includes/elementor/widgets/class-post-content.php:103
 msgid "Title"
 msgstr ""
@@ -1419,9 +1419,9 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:894
 #: includes/elementor/widgets/class-nav-menu.php:1427
 #: includes/elementor/widgets/class-nav-menu.php:2457
-#: includes/elementor/widgets/class-offcanvas.php:282
-#: includes/elementor/widgets/class-offcanvas.php:738
-#: includes/elementor/widgets/class-offcanvas.php:779
+#: includes/elementor/widgets/class-offcanvas.php:284
+#: includes/elementor/widgets/class-offcanvas.php:740
+#: includes/elementor/widgets/class-offcanvas.php:781
 #: includes/elementor/widgets/class-page-title.php:165
 #: includes/elementor/widgets/class-post-author.php:332
 #: includes/elementor/widgets/class-post-author.php:385
@@ -1444,8 +1444,8 @@ msgid "Typography"
 msgstr ""
 
 #: includes/elementor/widgets/class-archive-posts.php:1077
-#: includes/elementor/widgets/class-offcanvas.php:83
-#: includes/elementor/widgets/class-offcanvas.php:769
+#: includes/elementor/widgets/class-offcanvas.php:85
+#: includes/elementor/widgets/class-offcanvas.php:771
 msgid "Description"
 msgstr ""
 
@@ -1505,7 +1505,7 @@ msgstr ""
 #: includes/elementor/widgets/class-copyright.php:106
 #: includes/elementor/widgets/class-mini-search.php:785
 #: includes/elementor/widgets/class-nav-menu.php:565
-#: includes/elementor/widgets/class-offcanvas.php:243
+#: includes/elementor/widgets/class-offcanvas.php:245
 #: includes/elementor/widgets/class-post-content.php:54
 #: includes/elementor/widgets/class-post-excerpt.php:121
 #: includes/elementor/widgets/class-post-featured-img.php:67
@@ -1577,7 +1577,7 @@ msgstr ""
 #: includes/elementor/widgets/class-mini-cart.php:555
 #: includes/elementor/widgets/class-nav-menu.php:2964
 #: includes/elementor/widgets/class-nav-menu.php:3115
-#: includes/elementor/widgets/class-offcanvas.php:808
+#: includes/elementor/widgets/class-offcanvas.php:810
 #: includes/elementor/widgets/class-post-navigation.php:783
 msgid "Font Size"
 msgstr ""
@@ -1651,8 +1651,8 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:218
 #: includes/elementor/widgets/class-nav-menu.php:548
 #: includes/elementor/widgets/class-nav-menu.php:614
-#: includes/elementor/widgets/class-offcanvas.php:169
-#: includes/elementor/widgets/class-offcanvas.php:201
+#: includes/elementor/widgets/class-offcanvas.php:171
+#: includes/elementor/widgets/class-offcanvas.php:203
 msgid "Select Icon"
 msgstr ""
 
@@ -1687,8 +1687,8 @@ msgstr ""
 #: includes/elementor/widgets/class-mini-cart.php:147
 #: includes/elementor/widgets/class-mini-search.php:88
 #: includes/elementor/widgets/class-nav-menu.php:591
-#: includes/elementor/widgets/class-offcanvas.php:186
-#: includes/elementor/widgets/class-offcanvas.php:800
+#: includes/elementor/widgets/class-offcanvas.php:188
+#: includes/elementor/widgets/class-offcanvas.php:802
 msgid "Close Icon"
 msgstr ""
 
@@ -1730,13 +1730,13 @@ msgid "Panel"
 msgstr ""
 
 #: includes/elementor/widgets/class-mini-cart.php:737
-#: includes/elementor/widgets/class-offcanvas.php:653
+#: includes/elementor/widgets/class-offcanvas.php:655
 msgid "Container Width"
 msgstr ""
 
 #: includes/elementor/widgets/class-mini-cart.php:786
 #: includes/elementor/widgets/class-nav-menu.php:2347
-#: includes/elementor/widgets/class-offcanvas.php:705
+#: includes/elementor/widgets/class-offcanvas.php:707
 msgid "Overly Color"
 msgstr ""
 
@@ -1781,7 +1781,7 @@ msgid "Remove icon"
 msgstr ""
 
 #: includes/elementor/widgets/class-mini-cart.php:1005
-#: includes/elementor/widgets/class-offcanvas.php:481
+#: includes/elementor/widgets/class-offcanvas.php:483
 #: includes/elementor/widgets/class-post-meta.php:132
 #: includes/elementor/widgets/class-post-meta.php:535
 msgid "Size"
@@ -1901,8 +1901,8 @@ msgid "Translate Y"
 msgstr ""
 
 #: includes/elementor/widgets/class-mini-search.php:774
-#: includes/elementor/widgets/class-offcanvas.php:134
-#: includes/elementor/widgets/class-offcanvas.php:235
+#: includes/elementor/widgets/class-offcanvas.php:136
+#: includes/elementor/widgets/class-offcanvas.php:237
 msgid "Toggle Button"
 msgstr ""
 
@@ -2035,8 +2035,8 @@ msgid "Classic"
 msgstr ""
 
 #: includes/elementor/widgets/class-nav-menu.php:419
-#: includes/elementor/widgets/class-offcanvas.php:21
-#: includes/elementor/widgets/class-offcanvas.php:645
+#: includes/elementor/widgets/class-offcanvas.php:23
+#: includes/elementor/widgets/class-offcanvas.php:647
 msgid "Offcanvas"
 msgstr ""
 
@@ -2049,8 +2049,8 @@ msgid "Submenu Icon Type"
 msgstr ""
 
 #: includes/elementor/widgets/class-nav-menu.php:525
-#: includes/elementor/widgets/class-offcanvas.php:154
-#: includes/elementor/widgets/class-offcanvas.php:439
+#: includes/elementor/widgets/class-offcanvas.php:156
+#: includes/elementor/widgets/class-offcanvas.php:441
 msgid "Toggle Icon"
 msgstr ""
 
@@ -2130,7 +2130,7 @@ msgid "Top Level"
 msgstr ""
 
 #: includes/elementor/widgets/class-nav-menu.php:1671
-#: includes/elementor/widgets/class-offcanvas.php:469
+#: includes/elementor/widgets/class-offcanvas.php:471
 msgid "Icon Space"
 msgstr ""
 
@@ -2182,70 +2182,70 @@ msgstr ""
 msgid "-- Select Menu --"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:55
+#: includes/elementor/widgets/class-offcanvas.php:57
 msgid "Content Type"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:59
-#: includes/elementor/widgets/class-offcanvas.php:94
+#: includes/elementor/widgets/class-offcanvas.php:61
+#: includes/elementor/widgets/class-offcanvas.php:96
 msgid "Text Blocks"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:63
+#: includes/elementor/widgets/class-offcanvas.php:65
 msgid "Choose the type of content you want to display: either a text blocks or a template. You can use the offcanvas template from your admin panel with full Elementor controls."
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:75
-#: includes/elementor/widgets/class-offcanvas.php:99
-#: includes/elementor/widgets/class-offcanvas.php:103
-#: includes/elementor/widgets/class-offcanvas.php:107
+#: includes/elementor/widgets/class-offcanvas.php:77
+#: includes/elementor/widgets/class-offcanvas.php:101
+#: includes/elementor/widgets/class-offcanvas.php:105
+#: includes/elementor/widgets/class-offcanvas.php:109
 msgid "Text Block Title"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:76
+#: includes/elementor/widgets/class-offcanvas.php:78
 msgid "Enter block title"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:86
-#: includes/elementor/widgets/class-offcanvas.php:100
-#: includes/elementor/widgets/class-offcanvas.php:104
-#: includes/elementor/widgets/class-offcanvas.php:108
+#: includes/elementor/widgets/class-offcanvas.php:88
+#: includes/elementor/widgets/class-offcanvas.php:102
+#: includes/elementor/widgets/class-offcanvas.php:106
+#: includes/elementor/widgets/class-offcanvas.php:110
 msgid "This is a text block description area where you can add detailed information about your content. Use this space to describe the purpose, context, or any important details related to this section."
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:87
+#: includes/elementor/widgets/class-offcanvas.php:89
 msgid "Enter block description"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:121
+#: includes/elementor/widgets/class-offcanvas.php:123
 msgid "Select Template"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:143
+#: includes/elementor/widgets/class-offcanvas.php:145
 msgid "Button Text"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:146
+#: includes/elementor/widgets/class-offcanvas.php:148
 msgid "Click Here"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:290
+#: includes/elementor/widgets/class-offcanvas.php:292
 msgid "Width/Height"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:448
+#: includes/elementor/widgets/class-offcanvas.php:450
 msgid "Icon Position"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:718
+#: includes/elementor/widgets/class-offcanvas.php:720
 msgid "Text Block"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:757
+#: includes/elementor/widgets/class-offcanvas.php:759
 msgid "Bottom Gap"
 msgstr ""
 
-#: includes/elementor/widgets/class-offcanvas.php:1123
+#: includes/elementor/widgets/class-offcanvas.php:1127
 msgid "-- Select Template --"
 msgstr ""
 
@@ -3034,212 +3034,264 @@ msgid "Enter a custom width (px) for the mega menu template."
 msgstr ""
 
 #: includes/helpers/class-utils.php:266
+#: includes/helpers/class-utils.php:272
 msgctxt "Admin - RS Template Builder"
-msgid "Offcanvas Width"
+msgid "Replace Specific Element"
 msgstr ""
 
 #: includes/helpers/class-utils.php:267
 msgctxt "Admin - RS Template Builder"
-msgid "Enter a custom width (e.g. 450px) for the offcanvas panel. The default is 450px."
+msgid "Instead of replacing the full theme header, replace only a specific element matched by an ID or class selector."
 msgstr ""
 
 #: includes/helpers/class-utils.php:268
 msgctxt "Admin - RS Template Builder"
-msgid "Please provide a valid custom width."
+msgid "Header Replace Selector"
 msgstr ""
 
 #: includes/helpers/class-utils.php:269
 msgctxt "Admin - RS Template Builder"
-msgid "Popup Width"
+msgid "Enter an ID (#site-header) or class (.site-header) from your theme's header markup to replace only that element instead of the full header."
 msgstr ""
 
 #: includes/helpers/class-utils.php:270
 msgctxt "Admin - RS Template Builder"
-msgid "Select the width for the popup template."
+msgid "Selector must start with # or . (e.g. #site-header or .site-header)."
 msgstr ""
 
 #: includes/helpers/class-utils.php:271
+#: includes/helpers/class-utils.php:277
 msgctxt "Admin - RS Template Builder"
-msgid "Enter a custom width (px) for the popup template."
-msgstr ""
-
-#: includes/helpers/class-utils.php:272
-msgctxt "Admin - RS Template Builder"
-msgid "Popup Height"
+msgid "Please enter a selector, or disable Replace Specific Element."
 msgstr ""
 
 #: includes/helpers/class-utils.php:273
 msgctxt "Admin - RS Template Builder"
-msgid "Select the height for the popup template."
+msgid "Instead of replacing the full theme footer, replace only a specific element matched by an ID or class selector."
 msgstr ""
 
 #: includes/helpers/class-utils.php:274
 msgctxt "Admin - RS Template Builder"
-msgid "Enter a custom height (px) for the popup template."
+msgid "Footer Replace Selector"
 msgstr ""
 
 #: includes/helpers/class-utils.php:275
 msgctxt "Admin - RS Template Builder"
-msgid "Popup Position"
+msgid "Enter an ID (#site-footer) or class (.site-footer) from your theme's footer markup to replace only that element instead of the full footer."
 msgstr ""
 
 #: includes/helpers/class-utils.php:276
 msgctxt "Admin - RS Template Builder"
-msgid "Choose the position of the popup on the page."
-msgstr ""
-
-#: includes/helpers/class-utils.php:277
-msgctxt "Admin - RS Template Builder"
-msgid "Show Overlay"
+msgid "Selector must start with # or . (e.g. #site-footer or .site-footer)."
 msgstr ""
 
 #: includes/helpers/class-utils.php:278
 msgctxt "Admin - RS Template Builder"
-msgid "Display a dark overlay over the page."
+msgid "Offcanvas Width"
 msgstr ""
 
 #: includes/helpers/class-utils.php:279
 msgctxt "Admin - RS Template Builder"
-msgid "Show Close Button"
+msgid "Enter a custom width (e.g. 450px) for the offcanvas panel. The default is 450px."
 msgstr ""
 
 #: includes/helpers/class-utils.php:280
 msgctxt "Admin - RS Template Builder"
-msgid "Include a close button to dismiss the popup."
+msgid "Please provide a valid custom width."
 msgstr ""
 
 #: includes/helpers/class-utils.php:281
 msgctxt "Admin - RS Template Builder"
-msgid "Display Options"
+msgid "Popup Width"
 msgstr ""
 
 #: includes/helpers/class-utils.php:282
 msgctxt "Admin - RS Template Builder"
-msgid "Display Triggers"
+msgid "Select the width for the popup template."
 msgstr ""
 
 #: includes/helpers/class-utils.php:283
 msgctxt "Admin - RS Template Builder"
-msgid "Display Frequency"
+msgid "Enter a custom width (px) for the popup template."
 msgstr ""
 
 #: includes/helpers/class-utils.php:284
 msgctxt "Admin - RS Template Builder"
-msgid "On Page Load"
+msgid "Popup Height"
 msgstr ""
 
 #: includes/helpers/class-utils.php:285
 msgctxt "Admin - RS Template Builder"
-msgid "Show the popup when the page has finished loading."
+msgid "Select the height for the popup template."
 msgstr ""
 
 #: includes/helpers/class-utils.php:286
 msgctxt "Admin - RS Template Builder"
-msgid "Popup Delay"
+msgid "Enter a custom height (px) for the popup template."
 msgstr ""
 
 #: includes/helpers/class-utils.php:287
 msgctxt "Admin - RS Template Builder"
-msgid "Set the popup delay time (seconds)."
+msgid "Popup Position"
 msgstr ""
 
 #: includes/helpers/class-utils.php:288
 msgctxt "Admin - RS Template Builder"
-msgid "On Page Scroll"
+msgid "Choose the position of the popup on the page."
 msgstr ""
 
 #: includes/helpers/class-utils.php:289
 msgctxt "Admin - RS Template Builder"
-msgid "Show the popup after scrolling a specified percentage of the page."
+msgid "Show Overlay"
 msgstr ""
 
 #: includes/helpers/class-utils.php:290
 msgctxt "Admin - RS Template Builder"
-msgid "Scroll Percentage"
+msgid "Display a dark overlay over the page."
 msgstr ""
 
 #: includes/helpers/class-utils.php:291
 msgctxt "Admin - RS Template Builder"
-msgid "Specify the percentage of page scroll required to trigger the popup."
+msgid "Show Close Button"
 msgstr ""
 
 #: includes/helpers/class-utils.php:292
 msgctxt "Admin - RS Template Builder"
-msgid "On Scroll to Elements"
+msgid "Include a close button to dismiss the popup."
 msgstr ""
 
 #: includes/helpers/class-utils.php:293
 msgctxt "Admin - RS Template Builder"
-msgid "Show the popup when a specific element enters the viewport."
+msgid "Display Options"
 msgstr ""
 
 #: includes/helpers/class-utils.php:294
-#: includes/helpers/class-utils.php:298
 msgctxt "Admin - RS Template Builder"
-msgid "Elements Selectors"
+msgid "Display Triggers"
 msgstr ""
 
 #: includes/helpers/class-utils.php:295
 msgctxt "Admin - RS Template Builder"
-msgid "Enter CSS selectors (e.g., #my-id or .my-class) of elements that trigger the popup when visible."
+msgid "Display Frequency"
 msgstr ""
 
 #: includes/helpers/class-utils.php:296
 msgctxt "Admin - RS Template Builder"
-msgid "On Elements Click"
+msgid "On Page Load"
 msgstr ""
 
 #: includes/helpers/class-utils.php:297
 msgctxt "Admin - RS Template Builder"
-msgid "Show the popup when a specific element is clicked."
+msgid "Show the popup when the page has finished loading."
+msgstr ""
+
+#: includes/helpers/class-utils.php:298
+msgctxt "Admin - RS Template Builder"
+msgid "Popup Delay"
 msgstr ""
 
 #: includes/helpers/class-utils.php:299
 msgctxt "Admin - RS Template Builder"
-msgid "Enter CSS selectors (e.g., #my-id or .my-class) of clickable elements that will trigger the popup."
+msgid "Set the popup delay time (seconds)."
 msgstr ""
 
 #: includes/helpers/class-utils.php:300
 msgctxt "Admin - RS Template Builder"
-msgid "Show Frequency"
+msgid "On Page Scroll"
 msgstr ""
 
 #: includes/helpers/class-utils.php:301
 msgctxt "Admin - RS Template Builder"
-msgid "Select how often the popup will be displayed."
+msgid "Show the popup after scrolling a specified percentage of the page."
 msgstr ""
 
 #: includes/helpers/class-utils.php:302
 msgctxt "Admin - RS Template Builder"
-msgid "Repeat Interval"
+msgid "Scroll Percentage"
 msgstr ""
 
 #: includes/helpers/class-utils.php:303
 msgctxt "Admin - RS Template Builder"
-msgid "Enter the interval value in hours (e.g., 2 hours)."
+msgid "Specify the percentage of page scroll required to trigger the popup."
 msgstr ""
 
 #: includes/helpers/class-utils.php:304
 msgctxt "Admin - RS Template Builder"
-msgid "Limit Displays"
+msgid "On Scroll to Elements"
 msgstr ""
 
 #: includes/helpers/class-utils.php:305
 msgctxt "Admin - RS Template Builder"
-msgid "Limit the number of times the popup can be shown to the user."
+msgid "Show the popup when a specific element enters the viewport."
 msgstr ""
 
 #: includes/helpers/class-utils.php:306
+#: includes/helpers/class-utils.php:310
 msgctxt "Admin - RS Template Builder"
-msgid "Reset On Update"
+msgid "Elements Selectors"
 msgstr ""
 
 #: includes/helpers/class-utils.php:307
 msgctxt "Admin - RS Template Builder"
-msgid "Reset the display frequency whenever the popup content is updated."
+msgid "Enter CSS selectors (e.g., #my-id or .my-class) of elements that trigger the popup when visible."
 msgstr ""
 
 #: includes/helpers/class-utils.php:308
+msgctxt "Admin - RS Template Builder"
+msgid "On Elements Click"
+msgstr ""
+
+#: includes/helpers/class-utils.php:309
+msgctxt "Admin - RS Template Builder"
+msgid "Show the popup when a specific element is clicked."
+msgstr ""
+
+#: includes/helpers/class-utils.php:311
+msgctxt "Admin - RS Template Builder"
+msgid "Enter CSS selectors (e.g., #my-id or .my-class) of clickable elements that will trigger the popup."
+msgstr ""
+
+#: includes/helpers/class-utils.php:312
+msgctxt "Admin - RS Template Builder"
+msgid "Show Frequency"
+msgstr ""
+
+#: includes/helpers/class-utils.php:313
+msgctxt "Admin - RS Template Builder"
+msgid "Select how often the popup will be displayed."
+msgstr ""
+
+#: includes/helpers/class-utils.php:314
+msgctxt "Admin - RS Template Builder"
+msgid "Repeat Interval"
+msgstr ""
+
+#: includes/helpers/class-utils.php:315
+msgctxt "Admin - RS Template Builder"
+msgid "Enter the interval value in hours (e.g., 2 hours)."
+msgstr ""
+
+#: includes/helpers/class-utils.php:316
+msgctxt "Admin - RS Template Builder"
+msgid "Limit Displays"
+msgstr ""
+
+#: includes/helpers/class-utils.php:317
+msgctxt "Admin - RS Template Builder"
+msgid "Limit the number of times the popup can be shown to the user."
+msgstr ""
+
+#: includes/helpers/class-utils.php:318
+msgctxt "Admin - RS Template Builder"
+msgid "Reset On Update"
+msgstr ""
+
+#: includes/helpers/class-utils.php:319
+msgctxt "Admin - RS Template Builder"
+msgid "Reset the display frequency whenever the popup content is updated."
+msgstr ""
+
+#: includes/helpers/class-utils.php:320
 msgctxt "Admin - RS Template Builder"
 msgid "The page title work independently with RSTheme and popular themes. Otherwise, it will only work if the page uses the Template Type Header."
 msgstr ""
