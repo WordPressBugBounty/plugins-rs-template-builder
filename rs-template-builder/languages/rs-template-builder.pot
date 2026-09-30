@@ -2,14 +2,14 @@
 # This file is distributed under the GPL v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: RS Template Builder 1.4.1\n"
+"Project-Id-Version: RS Template Builder 1.4.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/rs-template-builder\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-23T11:00:14+00:00\n"
+"POT-Creation-Date: 2026-09-30T05:52:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: rs-template-builder\n"
@@ -218,14 +218,44 @@ msgstr ""
 msgid "Invalid settings structure"
 msgstr ""
 
-#: includes/elementor/extensions/class-header-options.php:19
-msgid "RS Header Settings"
+#: includes/elementor/extensions/class-container-options.php:19
+msgid "RS Size & Position"
 msgstr ""
 
-#: includes/elementor/extensions/class-header-options.php:27
-msgid "Select Position"
+#: includes/elementor/extensions/class-container-options.php:28
+#: includes/elementor/extensions/class-popup-options.php:53
+#: includes/elementor/widgets/class-archive-posts.php:716
+#: includes/elementor/widgets/class-archive-posts.php:1571
+#: includes/elementor/widgets/class-archive-posts.php:1780
+#: includes/elementor/widgets/class-archive-posts.php:2053
+#: includes/elementor/widgets/class-archive-posts.php:2234
+#: includes/elementor/widgets/class-mini-cart.php:354
+#: includes/elementor/widgets/class-mini-cart.php:538
+#: includes/elementor/widgets/class-mini-search.php:377
+#: includes/elementor/widgets/class-mini-search.php:649
+#: includes/elementor/widgets/class-mini-search.php:848
+#: includes/elementor/widgets/class-nav-menu.php:1638
+#: includes/elementor/widgets/class-nav-menu.php:1955
+#: includes/elementor/widgets/class-nav-menu.php:2628
+#: includes/elementor/widgets/class-nav-menu.php:2991
+#: includes/elementor/widgets/class-nav-menu.php:3139
+#: includes/elementor/widgets/class-nav-menu.php:3382
+#: includes/elementor/widgets/class-offcanvas.php:321
+#: includes/elementor/widgets/class-offcanvas.php:527
+#: includes/elementor/widgets/class-offcanvas.php:834
+#: includes/elementor/widgets/class-post-featured-img.php:170
+#: includes/elementor/widgets/class-post-navigation.php:661
+#: includes/elementor/widgets/class-post-navigation.php:771
+#: includes/elementor/widgets/class-site-logo.php:287
+msgid "Height"
 msgstr ""
 
+#: includes/elementor/extensions/class-container-options.php:45
+msgid "Max Height"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:60
+#: includes/elementor/extensions/class-container-options.php:100
 #: includes/elementor/extensions/class-header-options.php:30
 #: includes/elementor/widgets/class-archive-posts.php:744
 #: includes/elementor/widgets/class-archive-posts.php:766
@@ -247,6 +277,173 @@ msgstr ""
 #: includes/elementor/widgets/class-site-logo.php:334
 #: includes/elementor/widgets/class-site-logo.php:352
 msgid "Default"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:61
+msgid "Visible"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:62
+msgid "Hidden"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:63
+msgid "Auto"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:64
+msgid "Scroll"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:70
+msgid "Overflow X"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:83
+msgid "Overflow Y"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:90
+msgid "Set a Height or Max Height with Overflow Y \"Auto\" to make the content scrollable."
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:97
+#: includes/elementor/extensions/class-popup-options.php:77
+#: includes/elementor/widgets/class-archive-posts.php:1818
+#: includes/elementor/widgets/class-mini-search.php:251
+#: includes/elementor/widgets/class-mini-search.php:497
+#: includes/elementor/widgets/class-mini-search.php:511
+#: includes/elementor/widgets/class-nav-menu.php:252
+#: includes/elementor/widgets/class-nav-menu.php:2715
+#: includes/elementor/widgets/class-nav-menu.php:3151
+#: includes/elementor/widgets/class-offcanvas.php:220
+#: includes/elementor/widgets/class-offcanvas.php:846
+msgid "Position"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:101
+#: includes/elementor/widgets/class-mini-search.php:516
+msgid "Relative"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:102
+#: includes/elementor/widgets/class-mini-search.php:517
+msgid "Absolute"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:103
+msgid "Fixed"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:104
+msgid "Sticky"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:114
+#: includes/elementor/extensions/class-popup-options.php:121
+#: includes/elementor/widgets/class-archive-posts.php:228
+#: includes/elementor/widgets/class-archive-posts.php:767
+#: includes/elementor/widgets/class-archive-posts.php:1862
+#: includes/elementor/widgets/class-mini-search.php:300
+#: includes/elementor/widgets/class-mini-search.php:563
+#: includes/elementor/widgets/class-nav-menu.php:2091
+#: includes/elementor/widgets/class-nav-menu.php:2759
+#: includes/elementor/widgets/class-nav-menu.php:3195
+#: includes/elementor/widgets/class-nav-menu.php:3448
+#: includes/elementor/widgets/class-offcanvas.php:893
+#: includes/elementor/widgets/class-post-author.php:200
+#: includes/elementor/widgets/class-post-featured-img.php:221
+#: includes/elementor/widgets/class-post-meta.php:258
+#: includes/elementor/widgets/class-post-meta.php:348
+#: includes/elementor/widgets/class-site-logo.php:158
+#: includes/elementor/widgets/class-site-logo.php:353
+msgid "Top"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:115
+#: includes/elementor/extensions/class-popup-options.php:106
+#: includes/elementor/widgets/class-archive-posts.php:770
+#: includes/elementor/widgets/class-archive-posts.php:1847
+#: includes/elementor/widgets/class-breadcrumb.php:123
+#: includes/elementor/widgets/class-copyright.php:118
+#: includes/elementor/widgets/class-mini-search.php:163
+#: includes/elementor/widgets/class-mini-search.php:284
+#: includes/elementor/widgets/class-mini-search.php:548
+#: includes/elementor/widgets/class-mini-search.php:798
+#: includes/elementor/widgets/class-nav-menu.php:104
+#: includes/elementor/widgets/class-nav-menu.php:434
+#: includes/elementor/widgets/class-nav-menu.php:459
+#: includes/elementor/widgets/class-nav-menu.php:578
+#: includes/elementor/widgets/class-nav-menu.php:2076
+#: includes/elementor/widgets/class-nav-menu.php:2744
+#: includes/elementor/widgets/class-nav-menu.php:3180
+#: includes/elementor/widgets/class-nav-menu.php:3451
+#: includes/elementor/widgets/class-offcanvas.php:225
+#: includes/elementor/widgets/class-offcanvas.php:258
+#: includes/elementor/widgets/class-offcanvas.php:878
+#: includes/elementor/widgets/class-post-content.php:66
+#: includes/elementor/widgets/class-post-excerpt.php:133
+#: includes/elementor/widgets/class-post-featured-img.php:79
+#: includes/elementor/widgets/class-post-featured-img.php:224
+#: includes/elementor/widgets/class-site-logo.php:138
+#: includes/elementor/widgets/class-site-logo.php:356
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:116
+#: includes/elementor/extensions/class-popup-options.php:136
+#: includes/elementor/widgets/class-archive-posts.php:768
+#: includes/elementor/widgets/class-archive-posts.php:1877
+#: includes/elementor/widgets/class-mini-search.php:316
+#: includes/elementor/widgets/class-mini-search.php:578
+#: includes/elementor/widgets/class-nav-menu.php:2106
+#: includes/elementor/widgets/class-nav-menu.php:2774
+#: includes/elementor/widgets/class-nav-menu.php:3210
+#: includes/elementor/widgets/class-nav-menu.php:3449
+#: includes/elementor/widgets/class-offcanvas.php:908
+#: includes/elementor/widgets/class-post-author.php:202
+#: includes/elementor/widgets/class-post-featured-img.php:222
+#: includes/elementor/widgets/class-post-meta.php:260
+#: includes/elementor/widgets/class-post-meta.php:350
+#: includes/elementor/widgets/class-site-logo.php:166
+#: includes/elementor/widgets/class-site-logo.php:354
+msgid "Bottom"
+msgstr ""
+
+#: includes/elementor/extensions/class-container-options.php:117
+#: includes/elementor/extensions/class-popup-options.php:91
+#: includes/elementor/widgets/class-archive-posts.php:224
+#: includes/elementor/widgets/class-archive-posts.php:1832
+#: includes/elementor/widgets/class-breadcrumb.php:115
+#: includes/elementor/widgets/class-copyright.php:110
+#: includes/elementor/widgets/class-mini-search.php:155
+#: includes/elementor/widgets/class-mini-search.php:268
+#: includes/elementor/widgets/class-mini-search.php:533
+#: includes/elementor/widgets/class-mini-search.php:790
+#: includes/elementor/widgets/class-nav-menu.php:96
+#: includes/elementor/widgets/class-nav-menu.php:433
+#: includes/elementor/widgets/class-nav-menu.php:451
+#: includes/elementor/widgets/class-nav-menu.php:570
+#: includes/elementor/widgets/class-nav-menu.php:2061
+#: includes/elementor/widgets/class-nav-menu.php:2729
+#: includes/elementor/widgets/class-nav-menu.php:3165
+#: includes/elementor/widgets/class-offcanvas.php:224
+#: includes/elementor/widgets/class-offcanvas.php:250
+#: includes/elementor/widgets/class-offcanvas.php:863
+#: includes/elementor/widgets/class-page-title.php:121
+#: includes/elementor/widgets/class-post-content.php:58
+#: includes/elementor/widgets/class-post-excerpt.php:125
+#: includes/elementor/widgets/class-post-featured-img.php:71
+#: includes/elementor/widgets/class-site-logo.php:130
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/extensions/class-header-options.php:19
+msgid "RS Header Settings"
+msgstr ""
+
+#: includes/elementor/extensions/class-header-options.php:27
+msgid "Select Position"
 msgstr ""
 
 #: includes/elementor/extensions/class-header-options.php:31
@@ -341,33 +538,6 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: includes/elementor/extensions/class-popup-options.php:53
-#: includes/elementor/widgets/class-archive-posts.php:716
-#: includes/elementor/widgets/class-archive-posts.php:1571
-#: includes/elementor/widgets/class-archive-posts.php:1780
-#: includes/elementor/widgets/class-archive-posts.php:2053
-#: includes/elementor/widgets/class-archive-posts.php:2234
-#: includes/elementor/widgets/class-mini-cart.php:354
-#: includes/elementor/widgets/class-mini-cart.php:538
-#: includes/elementor/widgets/class-mini-search.php:377
-#: includes/elementor/widgets/class-mini-search.php:649
-#: includes/elementor/widgets/class-mini-search.php:848
-#: includes/elementor/widgets/class-nav-menu.php:1638
-#: includes/elementor/widgets/class-nav-menu.php:1955
-#: includes/elementor/widgets/class-nav-menu.php:2628
-#: includes/elementor/widgets/class-nav-menu.php:2991
-#: includes/elementor/widgets/class-nav-menu.php:3139
-#: includes/elementor/widgets/class-nav-menu.php:3382
-#: includes/elementor/widgets/class-offcanvas.php:321
-#: includes/elementor/widgets/class-offcanvas.php:527
-#: includes/elementor/widgets/class-offcanvas.php:834
-#: includes/elementor/widgets/class-post-featured-img.php:170
-#: includes/elementor/widgets/class-post-navigation.php:661
-#: includes/elementor/widgets/class-post-navigation.php:771
-#: includes/elementor/widgets/class-site-logo.php:287
-msgid "Height"
-msgstr ""
-
 #: includes/elementor/extensions/class-popup-options.php:65
 #: includes/elementor/widgets/class-mini-search.php:625
 #: includes/elementor/widgets/class-mini-search.php:824
@@ -377,19 +547,6 @@ msgstr ""
 #: includes/elementor/widgets/class-nav-menu.php:2645
 #: includes/elementor/widgets/class-offcanvas.php:497
 msgid "Icon Size"
-msgstr ""
-
-#: includes/elementor/extensions/class-popup-options.php:77
-#: includes/elementor/widgets/class-archive-posts.php:1818
-#: includes/elementor/widgets/class-mini-search.php:251
-#: includes/elementor/widgets/class-mini-search.php:497
-#: includes/elementor/widgets/class-mini-search.php:511
-#: includes/elementor/widgets/class-nav-menu.php:252
-#: includes/elementor/widgets/class-nav-menu.php:2715
-#: includes/elementor/widgets/class-nav-menu.php:3151
-#: includes/elementor/widgets/class-offcanvas.php:220
-#: includes/elementor/widgets/class-offcanvas.php:846
-msgid "Position"
 msgstr ""
 
 #: includes/elementor/extensions/class-popup-options.php:79
@@ -471,101 +628,6 @@ msgstr ""
 #: includes/elementor/widgets/class-post-meta.php:84
 #: includes/elementor/widgets/class-site-logo.php:102
 msgid "Custom"
-msgstr ""
-
-#: includes/elementor/extensions/class-popup-options.php:91
-#: includes/elementor/widgets/class-archive-posts.php:224
-#: includes/elementor/widgets/class-archive-posts.php:1832
-#: includes/elementor/widgets/class-breadcrumb.php:115
-#: includes/elementor/widgets/class-copyright.php:110
-#: includes/elementor/widgets/class-mini-search.php:155
-#: includes/elementor/widgets/class-mini-search.php:268
-#: includes/elementor/widgets/class-mini-search.php:533
-#: includes/elementor/widgets/class-mini-search.php:790
-#: includes/elementor/widgets/class-nav-menu.php:96
-#: includes/elementor/widgets/class-nav-menu.php:433
-#: includes/elementor/widgets/class-nav-menu.php:451
-#: includes/elementor/widgets/class-nav-menu.php:570
-#: includes/elementor/widgets/class-nav-menu.php:2061
-#: includes/elementor/widgets/class-nav-menu.php:2729
-#: includes/elementor/widgets/class-nav-menu.php:3165
-#: includes/elementor/widgets/class-offcanvas.php:224
-#: includes/elementor/widgets/class-offcanvas.php:250
-#: includes/elementor/widgets/class-offcanvas.php:863
-#: includes/elementor/widgets/class-page-title.php:121
-#: includes/elementor/widgets/class-post-content.php:58
-#: includes/elementor/widgets/class-post-excerpt.php:125
-#: includes/elementor/widgets/class-post-featured-img.php:71
-#: includes/elementor/widgets/class-site-logo.php:130
-msgid "Left"
-msgstr ""
-
-#: includes/elementor/extensions/class-popup-options.php:106
-#: includes/elementor/widgets/class-archive-posts.php:770
-#: includes/elementor/widgets/class-archive-posts.php:1847
-#: includes/elementor/widgets/class-breadcrumb.php:123
-#: includes/elementor/widgets/class-copyright.php:118
-#: includes/elementor/widgets/class-mini-search.php:163
-#: includes/elementor/widgets/class-mini-search.php:284
-#: includes/elementor/widgets/class-mini-search.php:548
-#: includes/elementor/widgets/class-mini-search.php:798
-#: includes/elementor/widgets/class-nav-menu.php:104
-#: includes/elementor/widgets/class-nav-menu.php:434
-#: includes/elementor/widgets/class-nav-menu.php:459
-#: includes/elementor/widgets/class-nav-menu.php:578
-#: includes/elementor/widgets/class-nav-menu.php:2076
-#: includes/elementor/widgets/class-nav-menu.php:2744
-#: includes/elementor/widgets/class-nav-menu.php:3180
-#: includes/elementor/widgets/class-nav-menu.php:3451
-#: includes/elementor/widgets/class-offcanvas.php:225
-#: includes/elementor/widgets/class-offcanvas.php:258
-#: includes/elementor/widgets/class-offcanvas.php:878
-#: includes/elementor/widgets/class-post-content.php:66
-#: includes/elementor/widgets/class-post-excerpt.php:133
-#: includes/elementor/widgets/class-post-featured-img.php:79
-#: includes/elementor/widgets/class-post-featured-img.php:224
-#: includes/elementor/widgets/class-site-logo.php:138
-#: includes/elementor/widgets/class-site-logo.php:356
-msgid "Right"
-msgstr ""
-
-#: includes/elementor/extensions/class-popup-options.php:121
-#: includes/elementor/widgets/class-archive-posts.php:228
-#: includes/elementor/widgets/class-archive-posts.php:767
-#: includes/elementor/widgets/class-archive-posts.php:1862
-#: includes/elementor/widgets/class-mini-search.php:300
-#: includes/elementor/widgets/class-mini-search.php:563
-#: includes/elementor/widgets/class-nav-menu.php:2091
-#: includes/elementor/widgets/class-nav-menu.php:2759
-#: includes/elementor/widgets/class-nav-menu.php:3195
-#: includes/elementor/widgets/class-nav-menu.php:3448
-#: includes/elementor/widgets/class-offcanvas.php:893
-#: includes/elementor/widgets/class-post-author.php:200
-#: includes/elementor/widgets/class-post-featured-img.php:221
-#: includes/elementor/widgets/class-post-meta.php:258
-#: includes/elementor/widgets/class-post-meta.php:348
-#: includes/elementor/widgets/class-site-logo.php:158
-#: includes/elementor/widgets/class-site-logo.php:353
-msgid "Top"
-msgstr ""
-
-#: includes/elementor/extensions/class-popup-options.php:136
-#: includes/elementor/widgets/class-archive-posts.php:768
-#: includes/elementor/widgets/class-archive-posts.php:1877
-#: includes/elementor/widgets/class-mini-search.php:316
-#: includes/elementor/widgets/class-mini-search.php:578
-#: includes/elementor/widgets/class-nav-menu.php:2106
-#: includes/elementor/widgets/class-nav-menu.php:2774
-#: includes/elementor/widgets/class-nav-menu.php:3210
-#: includes/elementor/widgets/class-nav-menu.php:3449
-#: includes/elementor/widgets/class-offcanvas.php:908
-#: includes/elementor/widgets/class-post-author.php:202
-#: includes/elementor/widgets/class-post-featured-img.php:222
-#: includes/elementor/widgets/class-post-meta.php:260
-#: includes/elementor/widgets/class-post-meta.php:350
-#: includes/elementor/widgets/class-site-logo.php:166
-#: includes/elementor/widgets/class-site-logo.php:354
-msgid "Bottom"
 msgstr ""
 
 #: includes/elementor/extensions/class-popup-options.php:154
@@ -1878,14 +1940,6 @@ msgstr ""
 #: includes/elementor/widgets/class-mini-search.php:489
 #: includes/elementor/widgets/class-post-comments.php:326
 msgid "Submit Button"
-msgstr ""
-
-#: includes/elementor/widgets/class-mini-search.php:516
-msgid "Relative"
-msgstr ""
-
-#: includes/elementor/widgets/class-mini-search.php:517
-msgid "Absolute"
 msgstr ""
 
 #: includes/elementor/widgets/class-mini-search.php:518

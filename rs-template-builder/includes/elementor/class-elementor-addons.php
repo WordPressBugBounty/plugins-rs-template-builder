@@ -126,6 +126,7 @@ final class Elementor_Addons {
 	public function include_extensions(): void {
 		include_once RSTB_ELEMENTOR . 'extensions/class-header-options.php';
 		include_once RSTB_ELEMENTOR . 'extensions/class-popup-options.php';
+		include_once RSTB_ELEMENTOR . 'extensions/class-container-options.php';
 	}
 }
 
