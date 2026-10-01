@@ -4,7 +4,7 @@ Tags: elementor, header builder, footer builder, mega menu, popup
 Requires at least: 5.9
 Tested up to: 7.1.2
 Requires PHP: 7.4
-Stable tag: 1.4.2
+Stable tag: 1.4.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -157,6 +157,9 @@ Yes. You can create as many popup templates as you need and control which pages 
 9. Template Type : 404
 
 == Changelog ==
+
+= 1.4.3 =
+*added: custom attribute control on container widget.
 
 = 1.4.2 =
 *added: width, height control on container.

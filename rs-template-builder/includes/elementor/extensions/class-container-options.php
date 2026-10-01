@@ -9,16 +9,15 @@ defined( 'ABSPATH' ) || exit;
 class Container_Options {
 
 	public function __construct() {
-		add_action( 'elementor/element/container/section_layout_container/before_section_end', [ $this, 'register_options' ] );
+		add_action( 'elementor/element/container/section_layout/after_section_end', [ $this, 'register_options' ] );
 	}
 
 	public function register_options( $element ): void {
-		$element->add_control(
-			'rstb_con_heading',
+		$element->start_controls_section(
+			'section_rstb_size_position',
 			[
-				'label'     => sprintf( '<i class="rstb-branding-ex-icon"></i> %s', __( 'RS Size & Position', 'rs-template-builder' ) ),
-				'type'      => Controls_Manager::HEADING,
-				'separator' => 'before',
+				'label' => sprintf( '<i class="rstb-branding-ex-icon"></i> %s', __( 'RS Size & Position', 'rs-template-builder' ) ),
+				'tab'   => Controls_Manager::TAB_ADVANCED,
 			]
 		);
 
@@ -140,6 +139,8 @@ class Container_Options {
 				]
 			);
 		}
+
+		$element->end_controls_section();
 	}
 }
 
